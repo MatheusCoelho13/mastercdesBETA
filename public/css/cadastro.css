@@ -1,0 +1,300 @@
+    html{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    overflow-y: scroll auto;
+    max-height: 1980px;
+    max-width: 1080px;
+   
+  
+    }
+    .route{
+        color: #ffffff;
+        
+    font-family: Chakra Petch;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+    }
+    a{
+    text-decoration: none;
+    
+    }
+
+    body{
+    /* colocando a image de background */
+    background-image:  url("../../images/background.svg") ; 
+    /* colocando para nao repitir a imagem em y */
+    background-repeat: repeat-x ;
+    }
+
+/* criando as espefiçao do menu */
+
+    .menu_top{
+    width: 2100px;
+    height: 127px;
+    flex-shrink: 0;
+    background: #05056D;
+    position: relative;
+    top: 93px;
+     overflow: hidden;
+    outline: #0000FA;
+    border-radius: 0.005em ;
+}
+
+/* inicio das configs da parte do menu 1 parte */
+
+    #Home{
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    }
+    #Logs{
+    position: relative;
+    bottom: 47px;
+    right: 0px;
+    }
+
+    #Api{
+        position: relative;
+        bottom: 100px;
+        right: -100px;
+    }
+
+    #Planos{
+        position: relative;
+        bottom: 47px;
+        right: -50px;
+        }
+
+        #img_logo2{
+            width: 230px;
+            position: relative;
+            right: -520px;
+            top: 10px;
+        }
+       
+            /* end 1 parte*/
+
+        /* segunda parte do menu drop */
+
+  #Quem{
+   position: relative;
+      bottom: 100px;
+      right: -600px;
+      }
+
+        #Faq{
+            position: relative;
+            bottom: 50px;
+            right: -550px;
+            }
+            
+                #Termos{
+                    position: relative;
+                    bottom: 100px;
+                    right: -600px;
+                    }
+
+                        #Suprir{
+                            position: relative;
+                            bottom: 50px;
+                            right: -500px;
+                            }
+
+                        #Login_2{
+                            position: relative;
+                            bottom: 100px;
+                            right: -600px;
+                            }
+
+                            #Cadastro_2{
+                                position: relative;
+                                bottom: 50px;
+                                right: -520px;
+                                } 
+                                 /* menu config end :( */
+
+                             /* criando um padding para o foms  e do h1 e p excluvios*/
+
+                                #Content3{
+                                  border-radius: 23px;
+                                    box-shadow: 0px 2px 2px 0px #000 inset;
+                                    width: 600px;
+                                    height: 665px;
+                                    flex-shrink: 0;
+                                    background-color: #ffffff;
+                                position: relative;
+                                left: 463px;
+                                top: 20px;
+                                }
+                               
+                                /* formulario de cadastro */
+                                #h1_forms{
+                                    color: #0000FA;
+                                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                    font-family: Ubuntu;
+                                    font-size: 32px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    width: 575px;
+                                    height: 90px;
+                                    flex-shrink: 0;
+                                    position: relative;
+                                    left: 20px;
+                                }
+                                #h3_forms{
+                                    color: #000;
+                                    font-family: Ubuntu;
+                                    font-size: 20px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    position: relative;
+                                    left: 190px;
+                                    bottom: 20px;
+                                }
+                                #formulario:focus-visible{
+                                    backdrop-filter: blur(50px);
+                                }
+                                .forms_input{
+                                    color: #000000;
+                                    font-family: Ubuntu;
+                                    font-size: 20px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    letter-spacing: 1.4px;
+                                    background:  none;
+                                    outline: none;
+                                    border: none;
+                                    border-bottom: 1.5px solid #000;
+                                    width: 200px;
+                                    stroke-width: 9px;
+                                    }
+
+                                .forms_input:focus{
+                                    border-bottom: 1px solid #000000;
+                                transform: 2s;
+                                transform: scale(100px);
+                                
+                                transition: 2s;
+                            }
+                            .forms_input:hover{
+                                border-bottom: 1.5px solid #1f1f1f;
+                            transform: 1s;
+                            transform: scale(10px);
+                            transition: 1s;
+                        }
+
+                        .input_p{
+                            color: #000;
+                            font-family: Ubuntu;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                            .name_input{
+                                position: relative;
+                                left: 40px;
+                                bottom: 20px;
+                            }
+                            #name_p{
+                                position: relative;
+                                left: 50px;
+                                top: 20px;
+                            }
+                            .email_input{
+                         position: relative;
+                         left: 360px;
+                         bottom: 110px;
+                            }
+                            #email_p{
+                                position: relative;
+                                left: 57px;
+                                top: 20px;
+                               }
+                            .senha_input{
+                                position: relative;
+                                left: 40px;
+                                bottom: 100px;
+                            }
+                            #senha_p{
+                                position: relative;
+                                left: 57px;
+                                top: 20px;
+                            }
+                            .consenha_input{
+                                position: relative;
+                                left: 360px;
+                                bottom: 280px;
+                            }
+                            #consenha_p{
+                                position: relative;
+                                left: 35px;
+                                top: 20px;
+                            }
+                            .conemail_input{
+                                position: relative;
+                                left: 230px;
+                                bottom: 100px;
+                            }
+                            #conemail_p{
+                                position: relative;
+                                left: 25px;
+                                top: 20px;
+                            }
+                            .checkbox{
+                                position: relative;
+                                right: -240px;
+                                bottom: 175px;
+}
+#text_check{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+                            #button_isfalse{
+                                border-radius: 109px;
+                                background: #10E009;
+                                outline: none;
+                                border: none;
+                                backdrop-filter: blur(5px);
+                                width: 222px;
+                                height: 50px;
+                                flex-shrink: 0;
+                                position: relative;
+                                right: -220px;
+                                bottom: 155px;
+                            }
+                            
+                            #button_isfalse:hover{
+                                transform: 1s;
+                            transform: scale(10px);
+                            transition: 1s;
+                               
+                                background: #087405;
+                                
+                            }
+                           
+                            #img_button{
+                                width: 35px;
+                                position: relative;
+                                right: 70px;
+                                top: 4px;}
+                            
+                             
+                            #h6_a{
+                                color: #FFF;
+                                font-family: Ubuntu;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                position: relative;
+                                bottom: 45px;
+                                left: 15px;
+                            }
