@@ -28,7 +28,7 @@
 <div class="menu_top">
 
     <div class="img"></a><img src="./images/logo2.png" alt="" id="img_logo2"></div>
-    <a href="./index.php" class="route" id="Home">Home</a>
+    <a href="./index.php" class="route" id="Home">Home</a>'
     <a href="./api/logs.php" class="route" id="Logs">Logs</a>
     <a href="./api/api.php" class="route" id="Api">Api</a>
     <a href="./api/plans.php" class="route" id="Planos">Planos</a>

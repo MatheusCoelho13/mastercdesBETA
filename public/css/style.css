@@ -52,11 +52,12 @@ transition:  1s;
 }
 #img_login{
     width: 25px;
-height: 25px;
-
+height:1,5625em;
+display: flex;
     position: relative;
   left: -25px;
     bottom: 98px;
+    flex: 1;
 }
 #p_login{
     position: relative;
@@ -243,3 +244,4 @@ bottom: 47px;
                                 bottom: 50px;
                                 right: -520px;
                                 }
+                               
