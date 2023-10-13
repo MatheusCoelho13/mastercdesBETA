@@ -1,4 +1,6 @@
-
+<?php
+$tokengoogle=$_POST[""]
+?>
 <!DOCTYPE html>
 <html lang ="en">
 <head><meta charset="UTF-8">
@@ -6,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../css/cadastro.css">
-<meta name="google-signin-client_id" content="72053938757-aph8mt3ft7q86m2qstcva64k1mfb15hq.apps.googleusercontent.com">
+
 <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Barlow&family=Chakra+Petch&family=Chelsea+Market&family=Inter:wght@500&family=Nerko+One&family=Ovo&family=Roboto+Condensed&family=Ubuntu&display=swap" rel="stylesheet">
     <title>Mastercode Cadastro</title>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+<script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/logo2 2-128.png" type="image/x-icon"/>
 </head>
@@ -35,16 +39,36 @@
            <p id="conemail_p"class="input_p">confimar email</p>
             <input type="conemail" name="conemail" class="forms_input" class="conemail_foms" >
            </div>
+           
            <div class="consenha_input">
            <p id="consenha_p"class="input_p">confimar senha</p>
             <input type="password" name="conpass" class="forms_input" class="consenha_foms"  >
            </div>
           <div class="checkbox"><input type="checkbox" id="acordo" name="acordo" />
     <label for="acordo" id="text_check">EU concordo com os <a id="termos_a" href="./termos">Termos</a></label></div>
+    <script>
+      function handleCredentialResponse(response) {
+        const data = jwt_decode( response.credential);
+        console.log(data)
+      }
+      window.onload = function () {
+        google.accounts.id.initialize({
+          client_id: "736429798352-5bdfd6bgctui5dhqa9ef6sc5v5tdqkfd.apps.googleusercontent.com",
+          callback: handleCredentialResponse
+        });
+        google.accounts.id.renderButton(
+          document.getElementById("buttonDiv"),
+          { theme: "outline", size: "large" }  // customization attributes
+        );
+        google.accounts.id.prompt(); // also display the One Tap dialog
+      }
+    </script>
+    <div id="buttonDiv"></div>>
+
           <input type="submit" disabled  id="button_isfalse"><img  id="img_buttonoff" src="../../images/contract1 1.svg" alt=""><p id="h6_a">concluir cadastro</p></button>
+          
           <div id="alert"></div>
-          <div class="g-signin2" data-onsuccess="onSignIn"></div>
-      <div id="name"></div>
+      
 
         <div class="githubauth"></div>
         
