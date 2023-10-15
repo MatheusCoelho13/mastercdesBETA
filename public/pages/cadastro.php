@@ -44,7 +44,7 @@ $tokengoogle=$_POST[""]
            <p id="consenha_p"class="input_p">confimar senha</p>
             <input type="password" name="conpass" class="forms_input" class="consenha_foms"  >
            </div>
-          <div class="checkbox"><input type="checkbox" id="acordo" name="acordo" />
+          <div class="checkbox"><input type="checkbox" id="acordo" name="acordo" value="1" />
     <label for="acordo" id="text_check">EU concordo com os <a id="termos_a" href="./termos">Termos</a></label></div>
     <script>
       function handleCredentialResponse(response) {
@@ -63,9 +63,11 @@ $tokengoogle=$_POST[""]
         google.accounts.id.prompt(); // also display the One Tap dialog
       }
     </script>
-    <div id="buttonDiv"></div>>
+    <div id="buttonDiv"></div>
+    <p id="ou_a">Ou</p>
+<a href="./login.php" id="a_login"> login</a>
 
-          <input type="submit" disabled  id="button_isfalse"><img  id="img_buttonoff" src="../../images/contract1 1.svg" alt=""><p id="h6_a">concluir cadastro</p></button>
+          <input type="submit" disabled  id="button_isfalse"><img  id="img_buttonoff" src="../../images/contract1 1.svg" alt=""></button>
           
           <div id="alert"></div>
       
