@@ -258,7 +258,8 @@
 }
                             #button_isfalse{
                                 border-radius: 109px;
-                                background: #10E009;
+                                color: #555455;
+                                background: #0de505;
                                 outline: none;
                                 border: none;
                                 backdrop-filter: blur(5px);
@@ -266,45 +267,46 @@
                                 height: 50px;
                                 flex-shrink: 0;
                                 position: relative;
-                                right: -220px;
-                                bottom: 155px;
+                                right: -180px;
+                                bottom: 265px;
                                 color: #ebebeb;
                                 font-family: Ubuntu;
                                 font-size: 18px;
                                 font-style: normal;
                                 font-weight: 700;
                                 line-height: normal;
+                                cursor: alias;
                             }
                             
                             #button_isfalse:hover{
-                                transform: 5s;
-                            transform: scale(10px);
-                            transition: 2.5s;
+                           
+                                   
                                
-                                background: #087405;
                                 color: #000;
                             }
                             
                             #button_isfalse:disabled{
                                 opacity:0.7;
                               cursor: not-allowed;
-                                color: #000;
-                            }
-                            #button_isfalse:disabled:hover{
-                               
-                                color: #555455;
+                                color: #000; color: #555455;
                                 background-color: #302e30;
                             }
+                           
                             #img_button{
                                 width: 35px;
                                 position: relative;
-                                left: 30px;
-                                bottom:145px;
-                                
-                            }
+                                position: relative;
+                                    right: 19px;
+                                    bottom:255px;
+                                }
+                            
                             
                                 #img_buttonoff{
-                                    opacity: 0;
+                                    opacity: 0.5;
+                                    width: 35px;
+                                    position: relative;
+                                    right: 19px;
+                                    bottom:255px;
                                 }
                             #h6_a{
                                 color: #FFF;
@@ -314,11 +316,36 @@
                                 font-weight: 700;
                                 line-height: normal;
                                 position: relative;
-                                bottom: 45px;
+                                bottom: 5px;
                                 left: 15px;
                             }
                             #buttonDiv{
                                 position: relative;;
-                                left: 270px;
+                                left: 230px;
+                                bottom: 2px;
                             }
-                        
+                            #ou_a{
+                                position: relative;
+                                bottom: 164px;
+                                left: 304px;
+                                font-family: Ubuntu;
+                                font-weight: 600;
+                            }
+                            #a_login{
+                                color: #077aedcc;
+                                font-family: Ubuntu;
+                                font-size: 19px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                width: 38px;
+                                height: 24px;
+                                flex-shrink: 0;
+                                position: relative;
+                                    left: 292px;
+                                    bottom:185px;
+                                }
+                            
+                            #a_login:hover{
+
+                            }

@@ -7,10 +7,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Barlow&family=Chakra+Petch&family=Chelsea+Market&family=Inter:wght@500&family=Nerko+One&family=Ovo&family=Roboto+Condensed&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/responsive.css">
     <link rel="shortcut icon" href="./images/logo2 2-128.png" type="image/x-icon"/>
     <title>mastercode</title>
 </head>
 <body>
+    <div class="flex">
     <img src="./images/horizontal_on_white_by_logaster 1.svg" alt="" id="img_logo">
     <div class="buttons_AEFY2455">
         <a href="./public/pages/cadastro.php">
@@ -42,5 +44,5 @@
  
 
 </div>
-
+</div>
 </html>
