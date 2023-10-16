@@ -9,6 +9,7 @@ a{
     text-decoration: none;
     
 }
+
 #img_logo{
     width: 265px;
     height: 180px;
@@ -244,4 +245,33 @@ bottom: 47px;
                                 bottom: 50px;
                                 right: -520px;
                                 }
-                               
+                                @media (max-width: 400px){
+                                    /* classes gerais*/
+                                    .flex{
+                                        flex-direction: column-reverse;
+                                    }
+                                    /* imagens */
+                                    #img_logo{
+                                        width: 152px;
+                                    }
+                                    #logo_img2{
+                                        position: relative;
+                                        left:352px;
+                                    }
+                                   
+                                    /* textos*/
+                                    #h1_dev{
+                                        width: 280px;
+                                        line-height:48px;
+                                        font-size: 55px;
+                                        position: relative;
+                                        left: 19px;
+                                        bottom: 225px;
+                                        color: aqua;
+                                    }
+                                    #h2_dev{
+                                        font-family:'Poppins', sans-serif ;
+                                        position: relative;
+                                        right: 163px;
+                                    }               
+                                }
